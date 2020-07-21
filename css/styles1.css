@@ -1,0 +1,29 @@
+table {
+	border-collapse: collapse;
+	border: 0;
+}
+caption {
+	margin-bottom: 5px;
+	padding: 5px;
+	text-transform: uppercase;
+	font-family: Open Sans, sans-serif;
+	color: #fff;
+	background-color: #2980b9;
+}
+th, td {
+    border: 1px solid black;
+	padding: 5px 10px;
+}
+th:empty {
+	border-width: 0;
+}
+body{
+	background: #659999;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+img,iframe,video{
+	width: 250px;
+	height: 250px;
+}

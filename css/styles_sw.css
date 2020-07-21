@@ -1,0 +1,49 @@
+.upper_body_ul
+{
+list-style: none;
+text-align: center;
+justify-content:space-around;
+display: flex;
+font-size: 1.2em;
+}
+
+.upper_body_ul_a
+{
+    color:#EBC974;
+}
+body{
+background-image:url(img/wallpsw.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.corp_de_la_page{
+color: honeydew;
+background-color:
+rgba(0, 0, 0, 0.6);
+border: 1px solid
+black;
+border-radius: 1em;
+
+}
+
+ .corp_de_la_page h2 {
+     color:goldenrod ;
+ }
+.corp_de_la_page article{
+    margin-left: 5%;
+}
+.etapes_creation_personnage{
+    text-align: center;
+    font-size: 1.2em;
+}
+ .corp_de_la_page img {
+     margin-left: 5%;
+ }
+
+
+ .img_article_sw{
+     max-width:450px ;
+     
+ }
