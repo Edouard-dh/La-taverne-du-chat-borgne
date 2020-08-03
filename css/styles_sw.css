@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
 .header_index{
 background-image:url(img/bwood2.jpg);
@@ -67,9 +68,15 @@ margin-top: 0.9em;
 color: honeydew;
 }
 
+.upper_body_ul,.sub-navigation-races-link,.sub-navigation-carriere-link,
+.upper_crea_perso_a,.sub-navigation-comp-link,.sub-navigation-force-link
+{
+    color:rgba(155, 89, 182, 1) ;
+    margin-right: 5px;
+}
 
 .h3_sw{
-color:rgba(155, 89, 182, 1) ;
+text-align: center;
 }      
 
 ul 
@@ -126,6 +133,7 @@ border: 1px solid
 black;
 border-radius: 1em;
 display: flex;
+font-family: 'Playfair Display', serif;
 }
 
  .corp_de_la_page h2 {
@@ -141,8 +149,9 @@ display: flex;
  .corp_de_la_page img {
      margin-left: 5%;
  }
-
-
+.a_sw_blank,.content-link,.medecine{
+    color:rgba(0, 230, 64, 1);
+}
  .img_article_sw{
      max-width:450px ;
      
