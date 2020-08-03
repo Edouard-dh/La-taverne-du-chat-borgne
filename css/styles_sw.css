@@ -156,6 +156,15 @@ font-family: 'Playfair Display', serif;
      max-width:450px ;
      
  }
+
+ #scrollUp
+{
+position: fixed;
+bottom: 10px;
+right: 10px;
+opacity: 0.5;
+}
+
  footer{
     margin-top: 15px;
   margin-bottom: 0px;
