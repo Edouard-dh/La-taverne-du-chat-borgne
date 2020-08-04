@@ -230,26 +230,11 @@ display: flex;
     }
 }
 @media only screen and (max-width: 1050px) {
-    aside{
-        display: none;
-    }
+
     main{
         max-width:100%;
     }
-    body{
-        background-image:none;
-        background-color: beige;
-    }
-    .corp_de_la_page{
-        background-color: beige;
-        width: 100%;
-        border: none;
-        color: black;
-    }
-    .block_page{
-        background-color: none;
-        border: none;
-    }
+
     .image_avant_footer_index{
         display: none;
     }
