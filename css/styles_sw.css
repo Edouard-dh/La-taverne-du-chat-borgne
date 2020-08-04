@@ -58,6 +58,14 @@ text-align: center;
 justify-content:space-around;
 display: flex;
 }
+.header_ul_a{
+color: gold;
+}
+
+.header_ul{
+margin-top: 0.6em;
+}
+
 .p_header{
 margin-top: 1.9em;
 color: honeydew;
@@ -88,22 +96,9 @@ a{
 text-decoration: none;
 }   
 
-.header_ul{
-margin-top: 0.6em;
-}
-
 a:visited{
 color: honeydew;
 }
-
-.header_ul_a{
-color: gold;
-}
-
-
-
-
-
 
 .upper_body_ul
 {
@@ -205,12 +200,7 @@ display: flex;
   transform:translateY(5px);
   box-shadow: none;
 }
-@media only screen and (max-width: 850px) {
-    header p{
-display: none;
-    }
 
-}
 @media only screen and (max-width: 850px) {
     header img{
         display: none;
@@ -218,13 +208,56 @@ display: none;
     body img{
         display: none;
     }
-}
-@media only screen and (max-width: 850px) {
-  .a_footer{
+    aside{
+        display: none;
+    }
+    header p{
+        display: none;
+            }
+    .a_footer{
     background-color:transparent;
     box-shadow: 0 5px 0 transparent;
-  }
-  .a_footer:hover{
+    }
+    .a_footer:hover{
     box-shadow: 0 3px 0 transparent;
+    }
+    .header_index{
+        background-image:url(img/fb.jpg);
+        padding: 10px;
+        margin:10px;
+        height: 170px;
+        
+    }
 }
+@media only screen and (max-width: 1050px) {
+    aside{
+        display: none;
+    }
+    body{
+        background-image:none;
+        background-color: beige;
+    }
+    .corp_de_la_page{
+        background-color: beige;
+        width: 100%;
+        border: none;
+        color: black;
+    }
+    .block_page{
+        background-color: none;
+        border: none;
+    }
+    .image_avant_footer_index{
+        display: none;
+    }
+    .a_footer{
+        background-color:transparent;
+        box-shadow: 0 5px 0 transparent;
+        }
+    .img_dice{
+        display: grid;
+    }
+    a:visited{
+        color:cornflowerblue ;
+        }
 }
