@@ -233,6 +233,9 @@ display: flex;
     aside{
         display: none;
     }
+    main{
+        max-width:100%;
+    }
     body{
         background-image:none;
         background-color: beige;
